@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: lightgray;
+}
+
+.background {
+    /*    width: 100%;*/
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('me-height-750px.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*    height: 100vh;*/
+    margin: 0 auto;
+}
+
+.smallones {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.bigones {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+#name {
+    position: fixed;
+    bottom: 15%;
+    left: 0;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+.smallones button btn {
+    border-bottom-left-radius: 0px;
+}
