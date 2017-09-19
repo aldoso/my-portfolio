@@ -95,11 +95,11 @@ button {
 }
 
 .topborder {
-    border-top: 1px solid #606060;
+    border-top: 1px solid #404040;
 }
 
 .bottomborder {
-    border-bottom: 1px solid #606060;
+    border-bottom: 1px solid #404040;
 }
 
 .space {
@@ -127,7 +127,7 @@ button {
 .article {
     height: 200px;
     width: 80%;
-    border: 1px solid #606060;
+    border: 1px solid #404040;
     margin: 0px auto;
     margin-bottom: 25px;
 }
