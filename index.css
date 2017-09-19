@@ -4,7 +4,7 @@ buttons:hover {
 
 body {
     position: relative;
-    background-color: darkgoldenrod;
+    background-color: black;
     color: white;
     margin: 0;
     padding: 0;
@@ -96,7 +96,10 @@ button {
 
 .topborder {
     border-top: 1px solid #808080;
-    border-bottom: 1px solid black;
+}
+
+.bottomborder {
+    border-bottom: 1px solid #808080;
 }
 
 .space {
@@ -135,11 +138,13 @@ button {
     margin: 0;
     padding: 0;
     width: 100%;
+    box-shadow: 0 -25px 20px 0px black;
 }
 
 .coverup nav ul {
     margin: 0;
-    padding: 15px;
+    padding: 10px;
+    -webkit-margin-after: 0px;
     -webkit-margin-after: 0px;
     list-style: none;
     background-color: black;
@@ -148,12 +153,13 @@ button {
 #titlecover {
     height: 100%;
     background: black;
+    box-shadow: 0 25px 20px 0px black;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
-#titlecover h5 {
+#titlecover h6 {
     margin: 0;
     padding: 5px 0 6px 0;
     text-align: center;
@@ -161,6 +167,7 @@ button {
 }
 
 .coverup h6 {
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
     position: sticky;
