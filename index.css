@@ -1,3 +1,7 @@
+buttons:hover {
+    color: black !important;
+}
+
 body {
     position: relative;
     background-color: darkgoldenrod;
@@ -36,6 +40,25 @@ a {
     margin: 0 auto;
     width: 100%;
     text-transform: uppercase;
+}
+
+.leftbutton {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+
+.rightbutton {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+button {
+    border: 1px solid lightgray;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
 }
 
 .smallones {
@@ -107,7 +130,6 @@ a {
 }
 
 .coverup nav {
-    background-color: darkgray;
     position: sticky;
     bottom: 0;
     margin: 0;
@@ -117,9 +139,10 @@ a {
 
 .coverup nav ul {
     margin: 0;
-    padding: 0;
+    padding: 15px;
     -webkit-margin-after: 0px;
     list-style: none;
+    background-color: black;
 }
 
 #titlecover {
@@ -145,6 +168,7 @@ a {
     background-color: darkred;
     top: 5px;
     -webkit-margin-after: 0px;
+    transition: all 0.5s ease;
 }
 
 .coverup h6:hover {
