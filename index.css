@@ -128,7 +128,7 @@ button {
     height: 250px;
     width: 100%;
     border: 1px solid #404040;
-/*    margin: 0px auto;*/
+    /*    margin: 0px auto;*/
     margin-bottom: 25px;
 }
 
@@ -142,7 +142,7 @@ button {
     margin: 0;
     padding: 0;
     width: 100%;
-    box-shadow: 0 -25px 20px 0px black;
+    box-shadow: 0 -25px 50px 0px black;
 }
 
 .coverup nav ul {
@@ -157,7 +157,7 @@ button {
 #titlecover {
     height: 100%;
     background: black;
-    box-shadow: 0 25px 20px 0px black;
+    box-shadow: 0 25px 50px 0px black;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -187,11 +187,24 @@ button {
     background-color: red;
 }
 
-a,
-a:visited {
+a:link {
     color: white !important;
     text-decoration: none !important;
     cursor: pointer;
+}
+
+a:hover {
+    color: black !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    background-color: white;
+}
+
+a:active {
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    background-color: black;
 }
 
 
