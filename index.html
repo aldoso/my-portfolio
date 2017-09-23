@@ -34,21 +34,18 @@
         <p>Scroll down to see more</p>
     </div>
 
-
-
     <div class="bigones">
         <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-            <a class="btn btn-primary btn-outline-light leftbutton" href="#" target="_blank" role="button">Portfolio</a>
-            <a class="btn btn-primary btn-outline-light rightbutton" href="#" target="_blank" role="button">Resume</a>
+            <a class="btn btn-primary btn-outline-light leftbutton" href="#gohere" role="button">Portfolio</a>
+            <a id="opa" class="btn btn-primary btn-outline-light rightbutton" href="#gohere" role="button">Resume</a>
         </div>
     </div>
 
 
     <div class="name">
         <h5 class="display-4">Alexandru</h5>
-        <h5 class="display-3">Dobra- Somesan</h5>
+        <h5 class="display-3">Dobra-Somesan</h5>
         <h5 class="display-5">Web Developer & UI/UX/Graphic Designer</h5>
-
     </div>
 
 
@@ -60,7 +57,7 @@
         </div>
     </div>
 
-    <div class="space topborder"></div>
+    <div id="gohere" class="space topborder"></div>
     <div id="titlecover">
         <h5>My latest work</h5>
     </div>
@@ -69,7 +66,7 @@
     <div class="coverup">
 
         <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="tab-pane fade show active" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-portfolio-tab">
                 <div class="container">
                     <div class="row">
                         <div class="articlebox col-md-6"><iframe src="http://gal-dsgh.ro/"></iframe></div>
@@ -85,84 +82,102 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                <h1>Alexandru DOBRA-SOMESAN</h1>
-                <h3>age: 29</h3>
-                <h4>speaking: english - fluent, french - basic, spanish - basic, romanian - native</h4>
-
-                <h2>Experience</h2>
-                <ul>
-                    <li>Currently (from Sept 2016): KROHNE Solutions, Timisoara: Graphic and UX/UI designer</li>
-                    <li>from Feb. 2015 - Dec 2016 (1 year 11 months): e-Austria Institute, Timisoara: Graphic and UX/UI designer</li>
-                    <li>from Oct. 2013 - May 2015 (1 year 8 months): Sphinx IT (Lasting Group), Timisoara: Graphic and UX/UI designer</li>
-                    <li>from December 2012 to May 2013 (6 months): Art Director at IQ Point Advertising XBG, Arad - Advertising Agency </li>
-                    <li>may - October 2012 (6 months): interior designer, consultant and graphic designer at Nova Casa Design, Arad</li>
-                    <li>from July 2011: freelancer visual graphic artist </li>
-                </ul>
-                <h2>Knowledge</h2>
-                <ul>
-                    <li>create dynamic, responsive, interactive websites (frontend & backend) </li>
-                    <li>UI/UX - user interfaces and user experience for mobile devices and websites</li>
-                    <li>web languages: HTML, CSS, JavaScript, PHP & SQL</li>
-                    <li>known web technologies: jQuery, Sass/Scss, AJAX, Bootstrap, Wordpress (creating themes & plugins), Joomla, Git, NPM</li>
-                    <li>also familiar with: MEAN Stack: Node, MongoDB, Express, Angular; Laravel; React; ES6 TypeScript; Electron</li>
-                    <li>basic knowledge on hybrid mobile phone applications development in Cordova & PhoneGap. </li>
-                    <li>Interested in learning: apps with Ionic Framework & React Native</li>
-                    <li>3D modeling products, architecture visualization, game assets (low poly), VR and 3D printing; photo-realistic 3D renderings, 3D animations, professional technical drawings and blueprints</li>
-                    <li>marketing assets: logos, visual identity, brochures, flyers, posters, illustrations, commercials, flash banners, interactive ads for websites</li>
-                    <li>video editing, 2D animations</li>
-                    <li>concept art, by-hand sketches, photo-retouching</li>
-                </ul>
-                <h2>Software</h2>
-                <ul>
-                    <li>
-                        advanced in: Adobe Illustrator, Photoshop, XD Experience Design, Premiere Pro, After Effects, Dreamweaver, Indesign, Animate, Acrobat</li>
-                    <li>for 3D projects I use: Blender (with Cycles Render), Sketchup(+Vray) (advanced) or 3DS MAX / Autocad (basic) - also basic Indigo, Octane and Maxwell</li>
-                    <li>
-                        Operating Systems: Windows (usually) and also Linux.</li>
-                </ul>
-                <h2>Education</h2>
-                <ul>
-                    <li>
-                        2016-2018: Computer Software Engineering - Full Stack Web Development Certification - freeCodeCamp.com</li>
-                    <li>since 2015: Self-taught web designer & developer </li>
-                    <li>2011: Bachelor of Visual Arts from “West University of Timisoara” - Arts and Design Faculty
-                    </li>
-                    <li>2010-2011: Erasmus Scholarship at “Escuela de Arte y Superior de Diseno”, Orihuela, Spain - Studied Interior Design and Visual Arts
-                    </li>
-                    <li>2008-2011: Arts and Design Faculty of West Univeristy of Timișoara
-                    </li>
-                    <li>2008-2010: psycho-pedagogical module of West Univeristy of Timișoara
-                    </li>
-                    <li>2006-2007: technical drawing classes
-                    </li>
-                    <li>2004-2007: classic graphic art classes at People’s Art School of Arad, graduated with diploma
-                    </li>
-                </ul>
+            <div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-resume-tab">
+                <div class="container">
+                    <div class="row">
+                        <div id="myname" class="col-md-6">
+                            <h2>Alexandru <br> DOBRA-SOMESAN
+                            </h2>
+                            <h4>Age: 29</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Speaking:</h2>
+                            <ul>
+                                <li>English - fluent</li>
+                                <li>French - basic</li>
+                                <li>Spanish - basic</li>
+                                <li>Romanian - native</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>Currently (from Sept 2016): KROHNE Solutions, Timisoara: Graphic and UX/UI designer</li>
+                        <li>from Feb. 2015 - Dec 2016 (1 year 11 months): e-Austria Institute, Timisoara: Graphic and UX/UI designer</li>
+                        <li>from Oct. 2013 - May 2015 (1 year 8 months): Sphinx IT (Lasting Group), Timisoara: Graphic and UX/UI designer</li>
+                        <li>from December 2012 to May 2013 (6 months): Art Director at IQ Point Advertising XBG, Arad - Advertising Agency </li>
+                        <li>may - October 2012 (6 months): interior designer, consultant and graphic designer at Nova Casa Design, Arad</li>
+                        <li>from July 2011: freelancer visual graphic artist </li>
+                    </ul>
+                    <h2>Knowledge</h2>
+                    <ul>
+                        <li>create dynamic, responsive, interactive websites (frontend & backend) </li>
+                        <li>UI/UX - user interfaces and user experience for mobile devices and websites</li>
+                        <li>web languages: HTML, CSS, JavaScript, PHP & SQL</li>
+                        <li>known web technologies: jQuery, Sass/Scss, AJAX, Bootstrap, Wordpress (creating themes & plugins), Joomla, Git, NPM</li>
+                        <li>also familiar with: MEAN Stack: Node, MongoDB, Express, Angular; Laravel; React; ES6 TypeScript; Electron</li>
+                        <li>basic knowledge on hybrid mobile phone applications development in Cordova & PhoneGap</li>
+                        <li>Interested in learning: apps with Ionic Framework & React Native</li>
+                        <li>3D modeling products, architecture visualization, game assets (low poly), VR and 3D printing; photo-realistic 3D renderings, 3D animations, professional technical drawings and blueprints</li>
+                        <li>marketing assets: logos, visual identity, brochures, flyers, posters, illustrations, commercials, flash banners, interactive ads for websites</li>
+                        <li>video editing, 2D animations</li>
+                        <li>concept art, by-hand sketches, photo-retouching</li>
+                    </ul>
+                    <h2>Software</h2>
+                    <ul>
+                        <li>
+                            advanced in: Adobe Illustrator, Photoshop, XD Experience Design, Premiere Pro, After Effects, Dreamweaver, Indesign, Animate, Acrobat</li>
+                        <li>for 3D projects I use: Blender (with Cycles Render), Sketchup(+Vray) (advanced) or 3DS MAX / Autocad (basic) - also basic Indigo, Octane and Maxwell</li>
+                        <li>
+                            Operating Systems: Windows (usually) and also Linux.</li>
+                    </ul>
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            2016-2018: Computer Software Engineering - Full Stack Web Development Certification - freeCodeCamp.com</li>
+                        <li>since 2015: Self-taught web designer & developer </li>
+                        <li>2011: Bachelor of Visual Arts from “West University of Timisoara” - Arts and Design Faculty
+                        </li>
+                        <li>2010-2011: Erasmus Scholarship at “Escuela de Arte y Superior de Diseno”, Orihuela, Spain - Studied Interior Design and Visual Arts
+                        </li>
+                        <li>2008-2011: Arts and Design Faculty of West Univeristy of Timișoara
+                        </li>
+                        <li>2008-2010: psycho-pedagogical module of West Univeristy of Timișoara
+                        </li>
+                        <li>2006-2007: technical drawing classes
+                        </li>
+                        <li>2004-2007: classic graphic art classes at People’s Art School of Arad, graduated with diploma
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <nav class="nav nav-tabs" id="myTab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-expanded="true">Home</a>
-            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile">Profile</a>
+        <nav id="bottom_navbar" class="nav nav-tabs topborder" id="myTab" role="tablist">
+            <ul>
+                <div class="center">
+                    <div class="btn-group btn-group" role="group" aria-label="Basic example">
+                        <a class="btn btn-primary btn-outline-light leftbutton active" id="nav-portfolio-tab" data-toggle="tab" href="#nav-portfolio" role="button" aria-controls="nav-portfolio" aria-expanded="true">Home</a>
+                        <a class="btn btn-primary btn-outline-light rightbutton" id="nav-resume-tab" data-toggle="tab" href="#nav-resume" role="button" aria-controls="nav-resume">Profile</a>
+                    </div>
+                </div>
+            </ul>
         </nav>
 
+        <!--
         <nav class="topborder">
             <ul>
                 <div class="center">
                     <div class="btn-group btn-group" role="group" aria-label="Basic example">
                         <a class="btn btn-primary btn-outline-light leftbutton" href="#" target="_blank" role="button">Portfolio</a>
-                        <!--
-<a class="btn btn-primary btn-outline-light leftbutton" href="https://github.com/aldoso/" target="_blank" role="button">Github</a>
-<a class="btn btn-primary btn-outline-light" href="https://github.com/aldoso/" target="_blank" role="button">E-mail</a>
-<a class="btn btn-primary btn-outline-light rightbutton" href="https://github.com/aldoso/" target="_blank" role="button">LinkedIn</a>
--->
+
                         <a class="btn btn-primary btn-outline-light rightbutton" href="#" target="_blank" role="button">Resume</a>
                     </div>
                 </div>
             </ul>
         </nav>
+-->
         <!-- end of container -->
+
         <a href="#">
             <h6>Go to top</h6>
         </a>

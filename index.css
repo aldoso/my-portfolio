@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500');
 embed {
     overflow: hidden;
     height: 100%;
@@ -67,6 +68,13 @@ button {
     text-align: center;
 }
 
+#bottom_navbar ul {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+}
+
 .smallones {
     position: fixed;
     top: 2%;
@@ -102,6 +110,7 @@ button {
 
 .topborder {
     border-top: 1px solid #404040;
+    border-bottom: 0 solid #404040;
 }
 
 .bottomborder {
@@ -122,6 +131,12 @@ button {
 
 
 /*====================================================================*/
+
+#titlecover h5 {
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size: 1.2em;
+}
 
 .coverup {
     position: relative;
@@ -148,7 +163,7 @@ button {
     margin: 0;
     padding: 0;
     width: 100%;
-    box-shadow: 0 -10px 80px 0px black;
+    box-shadow: 0 -10px 50px 0px black;
 }
 
 .coverup nav ul {
@@ -163,7 +178,7 @@ button {
 #titlecover {
     height: 100%;
     background: black;
-    box-shadow: 0 10px 80px 0px black;
+    box-shadow: 0 10px 50px 0px black;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -238,3 +253,36 @@ a:active {
         opacity: 1;
     }
 }
+
+
+/*  */
+
+#nav-resume {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+#nav-resume ul {
+    margin: 0 0 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-top: 30px;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+#myname h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+#myname h2 {}
