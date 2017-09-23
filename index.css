@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500');
-embed {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-}
-
 .smallones img {
     width: 20px;
     fill: white;
@@ -102,6 +96,16 @@ button {
     width: 100%;
 }
 
+.name h5 {
+    line-height: 0.5em;
+    font-weight: 200;
+}
+
+.name h5.display-5 {
+    margin-top: 1.5em;
+    font-size: 1.5em
+}
+
 .span {
     background-color: brown;
     position: fixed;
@@ -134,7 +138,7 @@ button {
 
 #titlecover h5 {
     font-family: 'Raleway';
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1.2em;
 }
 
@@ -221,12 +225,15 @@ a:hover {
     background-color: white;
 }
 
+
+/*
 a:active {
     color: white !important;
     text-decoration: none !important;
     cursor: pointer;
     background-color: black;
 }
+*/
 
 
 /*===================================================================*/
@@ -285,4 +292,6 @@ h2 {
     font-weight: 100;
 }
 
-#myname h2 {}
+#myname h2 {
+    margin-bottom: -20px
+}
