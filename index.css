@@ -25,6 +25,28 @@ a {
     color: white;
 }
 
+#top {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('assets/me_closeup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+#gohere {
+    z-index: 1;
+    position: relative;
+    margin-top: 100vh;
+}
+
+
+/*
 .background {
     width: 100%;
     height: 100vh;
@@ -33,12 +55,11 @@ a {
     background-position: top center;
     background-attachment: fixed;
     background-size: contain;
-    /*    margin: 0 auto;*/
-    position: relative;
     top: 0px;
     z-index: 0;
     opacity: 1;
 }
+*/
 
 .background p {
     color: #676767;
@@ -185,7 +206,7 @@ button {
 
 .coverup nav ul {
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     -webkit-margin-after: 0px;
     -webkit-margin-after: 0px;
     list-style: none;
@@ -259,6 +280,20 @@ a:active {
 /*====================================================================*/
 
 @media only screen and (max-width: 768px) {
+    #top {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('assets/me-low.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin: 0;
+        padding: 0;
+        z-index: 0;
+    }
+    /*
     .background {
         width: 100%;
         height: 100vh;
@@ -267,12 +302,12 @@ a:active {
         background-position: top center;
         background-attachment: fixed;
         background-size: cover;
-        /*    margin: 0 auto;*/
         position: relative;
         top: 0px;
         z-index: 0;
         opacity: 1;
     }
+*/
     #myname {
         margin-bottom: 30px;
     }
@@ -344,24 +379,26 @@ nav-resume h2 {
         height: 50px;
         width: 100%;
         text-align: center;
-        padding-top: 14px;
+        padding-top: 12px;
         text-transform: uppercase;
     }
 }
 
 #buble {
-    background: url('assets/bubble_red.svg');
+    background: url('assets/bubble_gradient.png');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
     height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 14px;
+    padding-top: 12px;
     text-transform: uppercase;
 }
 
 #redline {
     height: 3px;
     background-color: #BE1E2D;
+    position: relative;
+    z-index: 3;
 }
