@@ -254,14 +254,29 @@ a {
     color: white;
 }
 
+#gototop a:hover {
+    text-decoration: none;
+}
+
+.smallones a {
+    color: white;
+    transition: all .7s ease;
+}
+
 .smallones a:hover {
     background-color: darkred;
+    border-color: darkred;
 }
 
 .bigones a:link {
     color: white !important;
     text-decoration: none !important;
     cursor: pointer;
+    transition: all .7s ease;
+}
+
+#bottom_navbar a:link {
+    transition: all .7s ease;
 }
 
 .bigones a:hover,
@@ -320,7 +335,7 @@ a {
 
 #nav-resume {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #nav-resume ul {
