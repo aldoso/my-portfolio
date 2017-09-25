@@ -21,10 +21,6 @@ body {
     padding: 0;
 }
 
-a {
-    color: white;
-}
-
 #top {
     position: fixed;
     top: 0;
@@ -107,6 +103,13 @@ button {
     width: 100%;
     color: red;
 }
+
+
+/*
+.smallones a:hover {
+    background-color: darkred !important;
+}
+*/
 
 .bigones {
     position: fixed;
@@ -247,28 +250,27 @@ button {
     background-color: red;
 }
 
-a:link {
+a {
+    color: white;
+}
+
+.smallones a:hover {
+    background-color: darkred;
+}
+
+.bigones a:link {
     color: white !important;
     text-decoration: none !important;
     cursor: pointer;
 }
 
-a:hover {
+.bigones a:hover,
+#bottom_navbar a:hover {
     color: black !important;
     text-decoration: none !important;
     cursor: pointer;
     background-color: white;
 }
-
-
-/*
-a:active {
-    color: white !important;
-    text-decoration: none !important;
-    cursor: pointer;
-    background-color: black;
-}
-*/
 
 
 /*===================================================================*/
