@@ -40,3 +40,48 @@ $("#nav-resume-tab").click(function () {
     $('#nav-resume, #nav-resume-tab').addClass("show").addClass("active")
     window.open("#gohere", "_self")
 })
+
+
+// Scroll Reveal Animation
+//window.sr = ScrollReveal({
+//    reset: true
+//});
+
+sr.reveal('.smallones', {
+    duration: 1000,
+    origin: 'top',
+    delay: 400,
+    opacity: 0,
+    scale: 0.25,
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'
+});
+
+sr.reveal('.bigones', {
+    duration: 1000,
+    origin: 'bottom',
+    delay: 800,
+    opacity: 0,
+    scale: 0.25,
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'
+});
+
+sr.reveal('.name', {
+    duration: 1000,
+    //    origin: 'bottom',
+    //    delay: 500,
+    opacity: 0,
+    scale: 0.5,
+    easing: 'ease-in-out'
+});
+
+sr.reveal('#bottom_navbar', {
+    duration: 1000,
+    origin: 'bottom',
+    useDelay: 'always',
+    delay: 3000,
+    opacity: 0,
+    scale: 0.25,
+    easing: 'ease-in-out',
+    reset: true,
+    container: window.document.querySelector('.coverup')
+});

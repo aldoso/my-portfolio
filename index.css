@@ -159,7 +159,7 @@ button {
 
 .space {
     position: relative;
-    height: 100px;
+    height: 150px;
     background-color: black;
 }
 
@@ -260,7 +260,7 @@ a {
 
 .smallones a {
     color: white;
-    transition: all .7s ease;
+    transition: all .85s ease;
 }
 
 .smallones a:hover {
@@ -272,11 +272,11 @@ a {
     color: white !important;
     text-decoration: none !important;
     cursor: pointer;
-    transition: all .7s ease;
+    transition: all .85s ease;
 }
 
 #bottom_navbar a:link {
-    transition: all .7s ease;
+    transition: all .85s ease;
 }
 
 .bigones a:hover,
