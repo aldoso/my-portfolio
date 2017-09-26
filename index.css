@@ -21,10 +21,6 @@ body {
     padding: 0;
 }
 
-a {
-    color: white;
-}
-
 #top {
     position: fixed;
     top: 0;
@@ -108,6 +104,13 @@ button {
     color: red;
 }
 
+
+/*
+.smallones a:hover {
+    background-color: darkred !important;
+}
+*/
+
 .bigones {
     position: fixed;
     bottom: 10%;
@@ -156,7 +159,7 @@ button {
 
 .space {
     position: relative;
-    height: 100px;
+    height: 150px;
     background-color: black;
 }
 
@@ -247,28 +250,42 @@ button {
     background-color: red;
 }
 
-a:link {
+a {
+    color: white;
+}
+
+#gototop a:hover {
+    text-decoration: none;
+}
+
+.smallones a {
+    color: white;
+    transition: all .85s ease;
+}
+
+.smallones a:hover {
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.bigones a:link {
     color: white !important;
     text-decoration: none !important;
     cursor: pointer;
+    transition: all .85s ease;
 }
 
-a:hover {
+#bottom_navbar a:link {
+    transition: all .85s ease;
+}
+
+.bigones a:hover,
+#bottom_navbar a:hover {
     color: black !important;
     text-decoration: none !important;
     cursor: pointer;
     background-color: white;
 }
-
-
-/*
-a:active {
-    color: white !important;
-    text-decoration: none !important;
-    cursor: pointer;
-    background-color: black;
-}
-*/
 
 
 /*===================================================================*/
@@ -318,7 +335,7 @@ a:active {
 
 #nav-resume {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #nav-resume ul {
