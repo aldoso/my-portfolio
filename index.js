@@ -78,7 +78,7 @@ sr.reveal('#bottom_navbar', {
     duration: 1000,
     origin: 'bottom',
     useDelay: 'always',
-    delay: 3000,
+    delay: 2000,
     opacity: 0,
     scale: 0.25,
     easing: 'ease-in-out',

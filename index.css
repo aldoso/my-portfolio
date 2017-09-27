@@ -26,7 +26,7 @@ body {
     top: 0;
     height: 100vh;
     width: 100%;
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('assets/me_closeup.png');
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('assets/me_closeup-2.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
@@ -104,6 +104,19 @@ button {
     color: red;
 }
 
+.leftbutton {
+    border-bottom-left-radius: 2em !important;
+    border-top-left-radius: 2em !important;
+}
+
+.rightbutton {
+    border-bottom-right-radius: 2em !important;
+    border-top-right-radius: 2em !important;
+}
+
+.btn-outline-light {
+    border-color: #6d6767;
+}
 
 /*
 .smallones a:hover {
@@ -127,8 +140,12 @@ button {
     text-align: center;
     text-shadow: 2px 2px 10px black;
     width: 100%;
+    padding: 16px;
 }
 
+.name h5.display-5 {
+    padding-top: 10px;
+}
 
 /*
 .name h5 {
@@ -166,9 +183,7 @@ button {
 
 /*===================================================================*/
 
-
 /* Cover Display */
-
 
 /*====================================================================*/
 
@@ -290,9 +305,7 @@ a {
 
 /*===================================================================*/
 
-
 /* Mobile */
-
 
 /*====================================================================*/
 
@@ -302,7 +315,7 @@ a {
         top: 0;
         height: 100vh;
         width: 100%;
-        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('assets/me-low.png');
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.85) 100%), url('assets/me-low-2.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
@@ -364,7 +377,7 @@ nav-resume h2 {
 
 .btn-outline-light.active,
 .btn-outline-light:active,
-.show>.btn-outline-light.dropdown-toggle {
+.show > .btn-outline-light.dropdown-toggle {
     color: black !important;
     font-weight: 700;
     background-color: #f8f9fa;
