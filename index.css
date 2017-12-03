@@ -439,7 +439,7 @@ nav-resume h2 {
     margin: 0 auto;
 /*    min-width: 500px;*/
     height: 100%;
-    padding: 4rem 1rem;
+    padding: 0 1rem 4rem 1rem;
 }
 
 .contactform input, textarea {
@@ -471,7 +471,7 @@ nav-resume h2 {
 }
 
 .contact-big-buttons {
-    padding-bottom: 6.5rem;
+    padding-bottom: 4rem;
 }
 
 .contact-big-buttons img{
@@ -486,7 +486,8 @@ nav-resume h2 {
 }
 
 .contactform label, input[type='submit'] {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .contactfrom label, input[type='submit'] {
