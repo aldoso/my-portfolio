@@ -59,7 +59,7 @@ body {
 
 .background p {
     color: #676767;
-    font-size: 0.6em;
+    font-size: 0.8em;
     text-align: center;
     padding: 0;
     position: fixed;
@@ -291,7 +291,7 @@ a {
 }
 
 #bottom_navbar a:link {
-    transition: all .85s ease;
+    transition: all 1s ease;
 }
 
 .bigones a:hover,
@@ -427,8 +427,88 @@ nav-resume h2 {
 }
 
 #redline {
-    height: 3px;
+    height: 6px;
     background-color: #BE1E2D;
     position: relative;
     z-index: 3;
+}
+
+
+/*Google Contact form styling */
+.contactform {
+    margin: 0 auto;
+/*    min-width: 500px;*/
+    height: 100%;
+    padding: 4rem 1rem;
+}
+
+.contactform input, textarea {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+.button-box-big {
+    background-color: black;
+/*    height: 250px;*/
+    border: 0.05rem solid white;
+    border-radius: 1rem;
+    padding: .25rem;
+    margin: 1rem 0;
+    text-align: center;
+    transition: 0.5s ease all;
+}
+
+.button-box-big:hover {
+    background-color: darkred;
+}
+
+.contact-big-buttons a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-big-buttons {
+    padding-bottom: 6.5rem;
+}
+
+.contact-big-buttons img{
+    height: 6.5rem;
+    width:100%;
+    padding: 1.25rem;
+}
+
+
+.contactform  textarea {
+    height: 140px;
+}
+
+.contactform label, input[type='submit'] {
+    margin-top: 20px;
+}
+
+.contactfrom label, input[type='submit'] {
+    color: white;
+    background-color: black;
+    padding: 0.25rem;
+    border-radius: 2rem;
+    border: 0.032rem solid white;
+    transition: all 0.5s ease;
+}
+
+.contactfrom label, input[type='submit']:hover {
+    color: white;
+    background-color: darkred;
+    padding: 0.75rem;
+    border-radius: 2rem;
+    border: 2px;
+    cursor: pointer;
+}
+
+.contactform input:focus, .contactform textarea:focus {
+    box-sizing: border-box;
+    border: 0.1rem darkred solid;
+    box-shadow:inset darkred 0 0 7px 1px;
 }

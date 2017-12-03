@@ -15,20 +15,27 @@ $("#nav-portfolio-tab").click(function () {
 
 $("#portfolio-button").click(function () {
     $('#titlecover h6').text("My Latest Work")
-    $('#nav-resume').removeClass("show").removeClass("active")
-    $('#nav-portfolio').addClass("active").addClass("show")
+    $('#nav-resume, #nav-resume-tab, #nav-contactme, #nav-contactme-tab').removeClass("show").removeClass("active")
+    $('#nav-portfolio, #nav-portfolio-tab').addClass("active").addClass("show")
 })
 
 $("#resume-button").click(function () {
     $('#titlecover h6').text("My Resume")
-    $('#nav-portfolio, #nav-portfolio-tab').removeClass("active").removeClass("show")
+    $('#nav-portfolio, #nav-portfolio-tab, #nav-contactme, #nav-contactme-tab').removeClass("active").removeClass("show")
     $('#nav-resume, #nav-resume-tab').addClass("show").addClass("active")
 })
+
+$("#contactme-button").click(function () {
+    $('#titlecover h6').text("Get in touch with me")
+    $('#nav-portfolio, #nav-portfolio-tab, #nav-resume, #nav-resume-tab').removeClass("active").removeClass("show")
+    $('#nav-contactme, #nav-contactme-tab').addClass("show").addClass("active")
+})
+
 
 
 $("#nav-portfolio-tab").click(function () {
     $('#titlecover h6').text("My Latest Work")
-    $('#nav-resume').removeClass("show").removeClass("active")
+    $('#nav-resume, #nav-resume-tab, #nav-contactme, #nav-contactme-tab').removeClass("show").removeClass("active")
     $('#nav-portfolio').addClass("active").addClass("show")
     window.open("#gohere", "_self")
 })
@@ -36,8 +43,15 @@ $("#nav-portfolio-tab").click(function () {
 
 $("#nav-resume-tab").click(function () {
     $('#titlecover h6').text("My Resume")
-    $('#nav-portfolio, #nav-portfolio-tab').removeClass("active").removeClass("show")
+    $('#nav-portfolio, #nav-portfolio-tab, #nav-contactme, #nav-contactme-tab').removeClass("active").removeClass("show")
     $('#nav-resume, #nav-resume-tab').addClass("show").addClass("active")
+    window.open("#gohere", "_self")
+})
+
+$("#nav-contactme-tab").click(function () {
+    $('#titlecover h6').text("Get in touch with me")
+    $('#nav-portfolio, #nav-portfolio-tab, #nav-resume, #nav-resume-tab').removeClass("active").removeClass("show")
+    $('#nav-contactme, #nav-contactme-tab').addClass("show").addClass("active")
     window.open("#gohere", "_self")
 })
 
@@ -78,7 +92,7 @@ sr.reveal('#bottom_navbar', {
     duration: 1000,
     origin: 'bottom',
     useDelay: 'always',
-    delay: 2000,
+    delay: 500,
     opacity: 0,
     scale: 0.25,
     easing: 'ease-in-out',
