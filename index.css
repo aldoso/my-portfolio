@@ -233,13 +233,23 @@ button {
 
 #titlecover {
     height: 100%;
+    width:100%;
     background: black;
     box-shadow: 0 10px 50px 0px black;
-    position: sticky;
+    position: relative; /*this is needed for Internet Explorer or EDGE !!! */
+    position: sticky; /* this works just for chrome & firefox */
+
     top: 0;
     z-index: 2;
     background: black;
 }
+
+/* IE9, IE10 */
+/*@media screen and (min-width:0\0) {
+    #titlecover{
+      position: relative;
+    }
+}*/
 
 #titlecover h6,
 #titlecover h5 {
@@ -247,6 +257,7 @@ button {
     padding: 11px 0 11px 0;
     text-align: center;
     text-transform: uppercase;
+    z-index: 5;
 }
 
 .coverup h6 {
